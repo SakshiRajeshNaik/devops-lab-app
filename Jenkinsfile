@@ -30,7 +30,7 @@ pipeline {
         sh '''
           echo "Node version: $(node --version)"
           echo "NPM version:  $(npm --version)"
-          npm ci
+          npm install
         '''
       }
     }
