@@ -20,7 +20,7 @@ pipeline {
     stage('Checkout') {
       steps {
         git branch: 'main',
-            url: 'https://github.com/YOUR/REPO.git'
+            url: 'https://github.com/SakshiRajeshNaik/devops-lab-app.git'
       }
     }
 
